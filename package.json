@@ -1,0 +1,38 @@
+{
+  "name": "facebook-auth-nestjs",
+  "version": "0.0.1",
+  "description": "facebook-auth-nestjs",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepare": "npm run build",
+    "version": "git add -A src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devMontagnini/facebook-auth-nestjs.git"
+  },
+  "keywords": [
+    "nestjs",
+    "facebook",
+    "auth"
+  ],
+  "author": "André Montagnini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devMontagnini/facebook-auth-nestjs/issues"
+  },
+  "homepage": "https://github.com/devMontagnini/facebook-auth-nestjs#readme",
+  "devDependencies": {
+    "typescript": "^4.0.2"
+  },
+  "dependencies": {
+    "@nestjs/common": "^7.4.4",
+    "rxjs": "^6.6.2"
+  }
+}
