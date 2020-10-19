@@ -6,6 +6,7 @@
     "outDir": "./lib",
     "strict": true,
     "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
     "strictPropertyInitialization": false,
     "strictNullChecks": false
   },

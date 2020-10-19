@@ -34,5 +34,9 @@
   "dependencies": {
     "@nestjs/common": "^7.4.4",
     "rxjs": "^6.6.2"
+  },
+  "peerDependencies": {
+    "@nestjs/common": "7.x",
+    "rxjs": "6.x"
   }
 }

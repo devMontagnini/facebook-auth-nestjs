@@ -1,3 +1,3 @@
-import { UserInfoResponse } from '../responses/user-info.response';
+import { UserFieldsResponse } from '../responses/user-fields.response';
 
-export type Fields = keyof UserInfoResponse;
+export type Fields = keyof UserFieldsResponse;

@@ -1,4 +1,4 @@
-export interface UserInfoResponse {
+export interface UserFieldsResponse {
   id: string;
   name: string;
   about: string;
