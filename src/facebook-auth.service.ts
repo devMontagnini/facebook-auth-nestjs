@@ -1,5 +1,6 @@
+import { HttpService } from "@nestjs/axios";
 import { FACEBOOK_AUTH_GRAPH_URL, FACEBOOK_AUTH_DEBUG_TOKEN_URL, FACEBOOK_AUTH_ACCESS_TOKEN_URL, FACEBOOK_AUTH_CONFIG_MODULE_TOKEN } from "./config/config.constants";
-import { Injectable, HttpService, Inject, HttpStatus } from "@nestjs/common";
+import { Injectable, Inject, HttpStatus } from "@nestjs/common";
 import { UserValidateResponse } from "./responses/user-validate.response";
 import { AppTokenResponse } from "./responses/app-token.response";
 import { ConfigModule } from "./config/config.module";

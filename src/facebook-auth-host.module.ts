@@ -1,4 +1,5 @@
-import { Module, DynamicModule, Global, HttpModule } from "@nestjs/common";
+import { HttpModule } from "@nestjs/axios";
+import { Module, DynamicModule, Global } from "@nestjs/common";
 import { ConfigModule } from "./config/config.module";
 import { ConfigModuleAsync } from "./config/config.module.async";
 import { FACEBOOK_AUTH_CONFIG_MODULE_TOKEN, FACEBOOK_AUTH_SERVICE_TOKEN } from "./config/config.constants";

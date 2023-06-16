@@ -28,15 +28,13 @@
     "url": "https://github.com/devMontagnini/facebook-auth-nestjs/issues"
   },
   "homepage": "https://github.com/devMontagnini/facebook-auth-nestjs#readme",
-  "devDependencies": {
-    "typescript": "^4.0.2"
-  },
   "dependencies": {
-    "@nestjs/common": "^7.4.4",
-    "rxjs": "^6.6.2"
+    "@nestjs/axios": "^3.0.0",
+    "@nestjs/common": "^10.0.0",
+    "axios": "^1.4.0",
+    "rxjs": "^7.8.1"
   },
-  "peerDependencies": {
-    "@nestjs/common": "7.x",
-    "rxjs": "6.x"
+  "devDependencies": {
+    "typescript": "^5.1.3"
   }
 }
